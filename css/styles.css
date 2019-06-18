@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  background-image: url("../images/b5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120%;
+ margin-top: 50%;
+}
+h1{
+    text-align: center;
+    margin-left: 75%;
+    color: #FFFFFF;
+    font-size: 300%;
+    margin-top: 50%;
+}
+nav{
+    background-color: none;
+    height: 50px;
+
+}
+nav li{
+    display: inline;
+    margin-left: 30px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-size: 10px;
+    font-size: 130%;
+    margin-top: 50%;
+
+}
+a:hover{
+  color: black;
+  background-color: yellow;
+  text-decoration: underline;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.try{
+ width:300px;
+ height:250px;
+ margin-bottom: 30px;
+ margin: auto;
+}
+}
